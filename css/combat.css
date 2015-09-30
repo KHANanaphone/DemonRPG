@@ -1,0 +1,38 @@
+#combat div{
+
+	padding: 0.5em;
+	margin: 0.5em;
+	border: 1px solid #EEE;
+}
+
+#combat .player-demon{
+
+	display: inline-block;
+}
+
+#combat .player-demon-ability{
+
+}
+
+#combat .player-demon-ability:hover{
+
+	background-color: #FFE;
+}
+
+#combat .player-demon-ability.clickable{
+
+	cursor: pointer;
+}
+
+#combat .player-demon-ability.clickable:hover{
+
+	background-color: #EEF;
+}
+
+#combat .single-enemy.clickable{
+	cursor: pointer;
+}
+
+#combat .single-enemy.clickable:hover{
+	cursor: pointer;
+}
